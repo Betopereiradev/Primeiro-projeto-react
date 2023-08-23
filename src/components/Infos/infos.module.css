@@ -1,0 +1,20 @@
+.infosWrapper {
+    width: 100%;
+    font-weight: 500;
+  }
+  .infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    margin-inline: auto;
+    width: 80%;
+    margin-block: 20px;
+  }
+  .info {
+    background-color: orange;
+    padding: 5px;
+  }
+  .disponivel {
+    color: green !important;
+  }

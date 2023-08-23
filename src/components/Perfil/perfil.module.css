@@ -14,9 +14,11 @@
 }
 .container h1 {
     font-weight: 500;
+    color: #2b2b2b;
 }
 .container h2 {
     font-weight: normal;
+    color: #767676;
 }
 .container img {
     border-radius: 50%;

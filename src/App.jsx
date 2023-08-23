@@ -2,6 +2,7 @@ import Perfil from "./components/Perfil";
 import styles from "./index.module.css";
 import profileImg from "./assets/profile.jpg";
 import Redes from "./components/Redes";
+import Infos from "./components/Infos";
 
 function App() {
   return (
@@ -11,12 +12,15 @@ function App() {
         profileNome={"Alberto Pereira"}
         profileCargo={"Front-End Developer"}
       />
-      <hr />
+
       <div className={styles.containerFlex}>
-        <Redes />
+        <Redes instagramUrl="https://github.com/betopereiradev" />
         <Redes />
         <Redes />
       </div>
+      <hr />
+      <Infos idade="23" freelance="Disponível" endereco="Alagoas" />
+      <hr />
     </div>
   );
 }
