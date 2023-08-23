@@ -1,0 +1,15 @@
+.container {
+    width: 100%;
+}
+.rede {
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

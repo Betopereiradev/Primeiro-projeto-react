@@ -1,0 +1,24 @@
+.perfil {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.container h1 {
+    font-weight: 500;
+}
+.container h2 {
+    font-weight: normal;
+}
+.container img {
+    border-radius: 50%;
+    width: 200px;
+}
